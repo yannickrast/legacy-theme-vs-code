@@ -1,0 +1,27 @@
+{
+  "name": "silvered-grimoire",
+  "displayName": "Silvered Grimoire",
+  "description": "A dark theme for Visual Studio Code",
+  "publisher": "Yannick Rast",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yannickrast/theme-vs-code"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Silvered Grimoire",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  },
+  "icon": "images/logo.png"
+}
